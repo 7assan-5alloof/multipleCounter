@@ -16,7 +16,7 @@ int main()
         cin >> target;
 
         diff = greatest - smallest;
-        multiples = diff / target;
+        multiples = diff / target + 1;
 
         cout << "There are " << multiples << " multiples of " << target << " in range [" << smallest << ", " << greatest << "]" << endl;
         cout << "[C]ontinue (Any other character for stop)? ";
